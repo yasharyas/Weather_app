@@ -74,18 +74,13 @@
         else if(data.weather[0].main=="Snow"){
             weatherIcon.src="Images/snow.png"  
         }
-        else if(data.weather[0].main=="Humidity"){
-            weatherIcon.src="Images/humidity.png"  
-        }
         else if(data.weather[0].main=="Rain"){
             weatherIcon.src="Images/rain.png"  
         }
         else if(data.weather[0].main=="Mist"){
             weatherIcon.src="Images/mist.png"  
         }
-        else if(data.weather[0].main=="Wind"){
-            weatherIcon.src="Images/wind.png"  
-        }
+        
         document.querySelector(".weather").style.display="block";
     }
     searchBtn.addEventListener("click",()=>{
