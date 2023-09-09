@@ -34,3 +34,48 @@ body{
     margin-right: 15px;
     font-size: 19px;
 }
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width:60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width:40px;
+}
+.weather-icon{
+    width:169px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 75px;
+    font-weight: 600;
+}
+.weather h2{
+    font-size: 47px;
+    font-weight: 400;
+    margin-top:-10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:40px;
+    margin-right:10px;
+}
+.humidity ,.wind{
+    font-size: 29px;
+    margin-top:-6px;
+}
