@@ -83,10 +83,19 @@
         
         document.querySelector(".weather").style.display="block";
     }
-    searchBtn.addEventListener("click",()=>{
-        checkWeather(searchBox.value)
-    })
 
+    function handleSearch(){
+        checkWeather(searchBox.value)
+    }
+     
+    searchBtn.addEventListener("click",()=>{
+        handleSearch()
+    })
+    searchBox.addEventListener("keydown",()=>{
+        if (event.keyCode === 13) {
+        handleSearch();
+    }
+    })
 
 </script>
 </body>
