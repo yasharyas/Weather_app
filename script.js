@@ -37,6 +37,20 @@ async function checkWeather(city){
     document.querySelector(".weather").style.display="block";
 }
 
+function changeBgcolorByTime() {
+    var currentTime = new Date();
+    var hours = currentTime.getHours();
+    
+    if (hours >= 6 && hours < 18) {
+        document.body.style.backgroundColor = "#120d44";
+    } else {
+        document.body.style.backgroundColor = "bisque"; 
+    }
+}
+
+changeBgcolorByTime();
+
+
 function handleSearch(){
     checkWeather(searchBox.value)
 }
