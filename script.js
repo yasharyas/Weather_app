@@ -42,9 +42,9 @@ function changeBgcolorByTime() {
     var hours = currentTime.getHours();
     
     if (hours >= 6 && hours < 18) {
-        document.body.style.backgroundColor = "#120d44";
+        document.body.style.backgroundColor = "bisque";
     } else {
-        document.body.style.backgroundColor = "bisque"; 
+        document.body.style.backgroundColor = "#120d44"; 
     }
 }
 
