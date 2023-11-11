@@ -52,7 +52,8 @@ changeBgcolorByTime();
 
 
 function handleSearch(){
-    checkWeather(searchBox.value)
+    checkWeather(searchBox.value);
+    changeBgcolorByTime();
 }
  
 searchBtn.addEventListener("click",()=>{
@@ -61,5 +62,6 @@ searchBtn.addEventListener("click",()=>{
 searchBox.addEventListener("keydown",()=>{
     if (event.keyCode === 13) {
     handleSearch();
+    changeBgcolorByTime();
 }
 })
