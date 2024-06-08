@@ -48,6 +48,6 @@ The Weather App displays different weather icons based on the current weather co
 
 ## Background Color
 
-The background color of the app changes depending on the time of day. The app has a blue gradient background during the day and a bisque background during the night.
+The background color of the app changes depending on the time of day. The app has a blue gradient background during the day and a bisque background during the night.giving users a cleaner ui 
 
 Enjoy checking the weather with this simple Weather App!
